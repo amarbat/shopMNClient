@@ -8,6 +8,12 @@
     background-color: cadetblue;
     min-height: 40px;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
 }
 
 .nav-menu {
@@ -25,4 +31,5 @@
 .footer {
     background-color: blue;
     min-height: 200px;
+    margin-top: 20px;
 }

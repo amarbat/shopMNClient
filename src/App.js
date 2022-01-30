@@ -1,9 +1,10 @@
 import './App.css';
 import {Routes, Route, Link} from "react-router-dom";
-import Login from "./components/auth/Login";
-import SignUp from "./components/auth/SignUp";
 
-import Landing from "./components/Landing";
+import Login                from "./components/auth/Login";
+import SignUp               from "./components/auth/SignUp";
+import ForgotPassword       from "./components/auth/ForgotPassword";
+import Landing              from "./components/Landing";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route exact path="/" element={<Landing/>}/>
           <Route exact path="/auth/login" element={<Login/>}/>
           <Route exact path="/auth/signup" element={<SignUp/>}/>
+          <Route exact path="/auth/forgotpassword" element={<ForgotPassword/>}/>
         </Routes>
       </div>
 
