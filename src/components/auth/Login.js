@@ -6,17 +6,7 @@ const Login = () => {
   return (
     <div className="Login">
       <div className="login-container">
-        <LoginForm>
-          <div className="login-username">
-
-          </div>
-          <div className="login-password">
-
-          </div>
-          <div className="login-signinBTN">
-
-          </div>
-        </LoginForm>
+        <LoginForm/>
         <div className="info">
           <div className="login-info-forgot-pass">
             Forgot Password

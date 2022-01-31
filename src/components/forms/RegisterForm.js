@@ -3,11 +3,11 @@ import FormSubmitBtn        from "./FormSubmitBtn";
 import useInputState        from "../../hooks/useInputState";
 
 
-const LoginForm = () => {
+const RegisterForm        = () => {
   const [userName, handleUserNameChange, resetUserName]
-                          = useInputState('');
+    = useInputState('');
   const [password, handlePasswordChange, resetPassword]
-                          = useInputState('');
+    = useInputState('');
   const formSubmit        = (e) => {
     e.preventDefault ();
 
@@ -26,4 +26,4 @@ const LoginForm = () => {
   );
 }
 
-export default LoginForm;
+export default RegisterForm;
